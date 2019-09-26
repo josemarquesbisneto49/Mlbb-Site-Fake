@@ -226,7 +226,11 @@ iframe {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 320px) {
+    #top1 {
+        width: 5em;
+        height: 2em;
+    }
     .hero-box {
         width: 100%;
     }
