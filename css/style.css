@@ -230,4 +230,7 @@ iframe {
     .hero-box {
         width: 100%;
     }
+    footer {
+        font-size: 1em;  
+    }
 }
