@@ -1,0 +1,237 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    margin: auto;
+    background: darkgray;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#topsglobais {
+    margin-left: 15em;
+    margin-right: 20em;
+    align-items: center;
+}
+
+p.citacion {
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+    font-size: 1.5em;
+    margin: 0em;
+}
+
+footer {
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0;
+    background: rgb(39, 80, 85);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.Image-box {
+    float: left;
+    width: 50%;
+}
+
+.hero-box {
+    float: left;
+    width: 20%
+}
+
+div.gallery-heroes {
+    border: 1px solid #ccc;
+}
+
+div.gallery-heroes:hover {
+    border: 1px solid red;
+}
+
+div.gallery-heroes img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 1em;
+    text-align: center;
+}
+
+#top1 {
+    margin: 0%;
+    margin-left: 3em;
+    padding: 0.2em;
+    margin-right: 1em;
+    width: 12em;
+}
+
+#choro {
+    margin: 0%;
+    margin-left: 3em;
+    padding: 0.2em;
+    margin-right: 1em;
+    width: 12em;
+}
+
+iframe {
+    width: 30em;
+    height: 20em;
+    margin-left: 8em;
+}
+
+#gif {
+    width: 5em;
+    height: auto;
+}
+
+#legend {
+    width: 30em;
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+#menu li a:hover {
+    background-color: #111;
+}
+
+@media only screen and (max-width: 500px) {
+    .Image-box {
+        width: 100%;
+    }
+    .hero-box {
+        width: 100%;
+    }
+    #topsglobais {
+        margin: 0;
+    }
+    iframe {
+        width: 90%;
+    }
+    #legend {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Image-box {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    .hero-box {
+        width: 18.99999%;
+        margin: 6px 0;
+    }
+    #topsglobais {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .Image-box {
+        width: 100%;
+    }
+    #topsglobais {
+        margin: 0;
+    }
+    #top1 {
+        margin-left: 0;
+    }
+    .logo {
+        width: 8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media only sceen and (max-width: 320px) {
+    #top1 {
+        width: 5em;
+        height: 2em;
+    }
+    .hero-box {
+        width: 100%;
+    }
+}
